@@ -1,0 +1,82 @@
+{  
+   "took":2,
+   "timed_out":false,
+   "_shards":{  
+      "total":1,
+      "successful":1,
+      "failed":0
+   },
+   "hits":{
+      "total":50875,
+      "max_score":4.4780493,
+      "hits":[
+         {
+            "_index":"jobs",
+            "_type":"job",
+            "_id":"35529245",
+            "_score":4.4780493,
+            "_source":{
+               "title":"Production Estimator",
+               "jobtitle":"Production Estimator",
+               "jobid":33493309,
+               "listingid":35529245,
+               "reviewid":0,
+               "companyprofilestructureddataid":317390,
+               "companyname":"Talent Partnership",
+               "marketsegmentid":1,
+               "premiumflag":false,
+               "salarymaxamount":69999,
+               "salaryminamount":60000,
+               "salarymidpoint":65000,
+               "salaryinfo":"2||60000|69999|en-AU|$60,000 - $70,000",
+               "salarytext":"$60,000 - $70,000",
+               "salarytypeid":2,
+               "advertiser":"Talent Partnership",
+               "advertiserid":36727921,
+               "ignoread":false,
+               "classificationid":1206,
+               "classification":"Construction",
+               "subclassificationid":1387,
+               "subclassification":"Estimating",
+               "shortdescription":"A Volume Builder have a great opportunity for a Production Estimator with 3-5 years experience. Activities will include full take-off's and BOQ's.",
+               "jobaddetails":"<HTML><strong>The company:</strong><br> Quality driven Volume Builder with a slight Custom feel. Their homes offer functionality and incorporate specific design features which make them a place to call home. &nbsp;<br> <br> <br> <strong>The Role:</strong><br> As a&nbsp;<strong>Production Estimator</strong>&nbsp;based in their Western Suburbs head office, you will be required to complete full take-offs, quotes for projects and BOQ's. You will set prices based on supplier rates and schedules, calculate quantities and liaise with the Architects, Site Supervisors and the customers. The software you will be using is Databuild (Not Paramount - can be taught) and will need to demonstrate a strong proficiency in utilising the complete software package.&nbsp;<br> &nbsp;&nbsp;<br> <br> <strong>You will have:</strong><br> <ul> <li>3-5 years of Production Estimating</li> <li>Be highly organised, efficient, have excellent communication skills, along with the ability to meet strict deadlines;</li> <li>Demonstrated capabilities to complete full take-off's and BOQ's;</li> <li>Experience in Databuild software package will be an advantage</li> </ul> <div><br> </div> <strong>Your salary will be between $60-70k +&nbsp;Superannuation.</strong>&nbsp;<br> <br> To apply, simply send your CV to&nbsp;<strong>josh@talentpartnership.com.au&nbsp;</strong>or alternatively<strong>&nbsp;</strong>for a confidential discussion about this or other roles that we have available please contact&nbsp;<strong>Josh&nbsp;</strong>directly on&nbsp;<strong>0439 258 239<br> <br> <em>Talent Partnership are Market Leading Recruiters operating across the Construction and Engineering Sectors.&nbsp; As experienced recruiters, we hold key relationships with a number of respected Commercial &amp; Residential Construction organisations. Contact our Team for further information on how we can assist with your Career Growth. 03 8319 4008.</em></strong><strong></strong><strong></strong><strong></strong></HTML> <HTML>Production Estimator with 3-5 years experience; $60,000 - $70,000 + Super; Western Suburbs Location.</HTML> $60,000 - $70,000",
+               "shortlocation":"Melbourne~Western Suburbs",
+               "docdatetime":"2017-05-19T01:00:32Z",
+               "expirydate":"2017-06-18T01:00:32Z",
+               "automaticinclusion":false,
+               "automaticinclusionid":0,
+               "worktype":"Full Time",
+               "worktypeid":242,
+               "suburb":"none",
+               "displaysuburb":"none",
+               "suburblist":"none",
+               "area":"Western Suburbs",
+               "areaid":5073,
+               "nationid":3000,
+               "nation":"Australia",
+               "locationid":1002,
+               "location":"Melbourne",
+               "stateid":3106,
+               "state":"Victoria",
+               "metaclassifier":"Full Time Estimating Construction Western Suburbs Melbourne Victoria Australia estimating estimator construction",
+               "metaclassifieronly":"Full Time Estimating Construction Western Suburbs Melbourne Victoria Australia",
+               "isenhancedad":true,
+               "enhancedadbullets":[
+                  "Production Estimator with 3-5 years experience;",
+                  "$60,000 - $70,000 + Super;",
+                  "Western Suburbs Location."
+               ],
+               "enhancedadlogoid":661426,
+               "enhancedadlogofile":"661426.jpg",
+               "additionalworkarrangements":[
+
+               ],
+               "extractedroletitles":[
+                  "production estimator",
+                  "estimator"
+               ]
+            }
+         }
+      ]
+   }
+}

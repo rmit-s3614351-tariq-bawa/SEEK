@@ -1,0 +1,81 @@
+{  
+   "took":2,
+   "timed_out":false,
+   "_shards":{  
+      "total":1,
+      "successful":1,
+      "failed":0
+   },
+   "hits":{
+      "total":50875,
+      "max_score":4.4780493,
+      "hits":[
+         {
+            "_index":"jobs",
+            "_type":"job",
+            "_id":"35614002",
+            "_score":4.4780493,
+            "_source":{
+               "title":"Junior Contracts Administrator | Luxury Apartments",
+               "jobtitle":"Junior Contracts Administrator | Luxury Apartments",
+               "jobid":33575043,
+               "listingid":35614002,
+               "reviewid":0,
+               "companyprofilestructureddataid":353,
+               "companyname":"Morgan Consulting",
+               "marketsegmentid":1,
+               "premiumflag":false,
+               "salarymaxamount":74999,
+               "salaryminamount":60000,
+               "salarymidpoint":67500,
+               "salaryinfo":"2||60000|74999|en-AU|$60k - $70k p.a.",
+               "salarytext":"$60k - $70k p.a.",
+               "salarytypeid":2,
+               "advertiser":"Morgan Consulting",
+               "advertiserid":1742,
+               "ignoread":false,
+               "classificationid":1206,
+               "classification":"Construction",
+               "subclassificationid":6113,
+               "subclassification":"Contracts Management",
+               "shortdescription":"Immediate opportunity for a Junior CA! Exciting opportunity with a mid-tier builder who delivers impressive innovative apartment & commercial projects",
+               "jobaddetails":"<HTML><p>Immediate opportunity for a Junior CA! Exciting opportunity with a mid-tier builder who delivers impressive innovative apartment &amp; commercial projects.</p><p>With a proven track record delivering for Melbourne’s leading developers, this well-established construction company is conveniently located in inner city Melbourne.</p><p>Projects are mostly design and construct apartments, commercial as well as other new build projects.</p><p><strong>Primary responsibilities:</strong></p><ul><li>Preparing subcontractor packages, scopes, lettings, procurement schedules</li><li>Progress claim assistance and external variations</li><li>Review, negotiation and finalisation of subcontracts</li><li>Management and tracking of project expenditure, inclusive of subcontractor claims</li></ul><p><strong>Contract administrator skills and experience:</strong></p><ul><li>Degree qualified in construction management or equivalent tertiary qualifications</li><li>1+ year working experience in a commercial building environment</li><li>Comprehensive subcontractor packages experience.</li><li>Experience with Cheops, Jobpac and or other construction related systems</li><li>Knowledge of Melbourne construction market and subcontractors is essential</li><li>Strong attention to detail and proven communication skills</li></ul><p>The Management team have a genuine interest in mentoring others through their careers. You will have access to the support you need to set yourself up for a successful career path.</p><p>With a huge forecast for 2017/18, my client is looking for a driven Junior CA who wants to forge their place in the industry.</p><p><strong>To apply for this position, simply attach your CV in Word format by clicking on the Apply Now button.</strong></p><p><strong>For a confidential discussion, contact Lauren Esler on 03 8606 0383.</strong></p></HTML>  $60k - $70k p.a.",
+               "shortlocation":"Melbourne~CBD & Inner Suburbs",
+               "docdatetime":"2017-05-30T10:20:37Z",
+               "expirydate":"2017-06-29T10:20:37Z",
+               "automaticinclusion":false,
+               "automaticinclusionid":0,
+               "worktype":"Full Time",
+               "worktypeid":242,
+               "suburbid":18578,
+               "suburb":"melbourne",
+               "displaysuburb":"Melbourne",
+               "suburblist":"Melbourne",
+               "area":"CBD & Inner Suburbs",
+               "areaid":5069,
+               "nationid":3000,
+               "nation":"Australia",
+               "locationid":1002,
+               "location":"Melbourne",
+               "stateid":3106,
+               "state":"Victoria",
+               "metaclassifier":"Full Time Contracts Management Construction CBD & Inner Suburbs Melbourne Victoria Australia contract administration contract administrator contract management construction",
+               "metaclassifieronly":"Full Time Contracts Management Construction CBD & Inner Suburbs Melbourne Victoria Australia",
+               "isenhancedad":false,
+               "enhancedadbullets":[
+
+               ],
+               "geolocation":"-37.8136100769043,144.96305847168",
+               "additionalworkarrangements":[
+
+               ],
+               "extractedroletitles":[
+                  "contracts administrator",
+                  "administrator",
+                  "contract administrator"
+               ]
+            }
+         }
+      ]
+   }
+}

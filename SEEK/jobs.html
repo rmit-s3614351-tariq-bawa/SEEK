@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jquery AJax</title>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="scripit.js"></script>
+        <link rel="stylesheet" href="jobs.css" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        
+    </style>
+    </head>
+
+<html>
+<body>
+    
+<div class="ad1">
+        <button  class="button button1" type="button">Apply Now</button>
+        
+</div>
+<div class="ad2">
+        <button class="button-1 button4">Save Job</button>
+        <button class="button-1 button5">Send Job</button>
+        
+</div>
+    
+<script>
+
+    var ajaxhttp = new XMLHttpRequest();
+    // Retrieves the jobId from the URL
+    var jobId = window.location.search.substring(5);
+
+    let config = {
+        serverName: "http://43.240.96.87",
+        port: 9200
+    }
+
+    // THIS NEEDS TO ULTIMATELY POINT TO THE API
+    var url = `${config.serverName}:${config.port}/jobs/_search?q=jobid:${jobId}`;
+
+// Sends a GET request to fetch the right description JSON file
+    ajaxhttp.open("GET", url, true);
+    ajaxhttp.setRequestHeader("content-type", "application/json");
+        ajaxhttp.onreadystatechange = function () {
+            if(ajaxhttp.readyState == 4 && ajaxhttp.status == 200){
+            var jcontent = JSON.parse(ajaxhttp.response);
+            renderJob(jcontent);
+            }
+    };
+    
+    // The logic to render the job description goes here
+    function renderJob(data) {
+        console.log(data);
+    
+    // if (data.length == 0) {
+    //     let noResultsMessage = document.createElement('h2');
+    //     noResultsMessage.textContent = "Sorry, we couldn't find anything";
+    //     noResultsMessage.setAttribute('style', 'color:white');
+    //     document.body.appendChild(noResultsMessage);
+    // }
+    
+
+    // This generates a list of results, which is not the job here
+    var newElement = document.createElement('div');
+          newElement.id = data.hits.hits[0]._source.title; 
+          newElement.className = "job";
+          newElement.innerHTML ='<h1  class="job-name">' + data.hits.hits[0]._source.title+ '</h1>'+'<br>' + '<div class="class">'+ data.hits.hits[0]._source.advertiser + '</div><br><br>'+ '<br>' + '<p>' + data.hits.hits[0]._source.jobaddetails + '</p>' ;
+          document.body.appendChild(newElement);
+        
+    var newElement = document.createElement('div');
+        newElement.id = data.hits.hits[0]._source.jobid; newElement.className = "ad3";
+        newElement.innerHTML = '<h2>' + data.hits.hits[0]._source.docdatetime + '</h2>' + '<div class="side1">'+'<b>' + data.hits.hits[0]._source.displaysuburb + '</b> <br> ' + data.hits.hits[0]._source.state + ', ' + data.hits.hits[0]._source.nation + '<b> <br><br>'+ data.hits.hits[0]._source.worktype + '<br><br>' + data.hits.hits[0]._source.classification +'</b>'+ '<br>' + data.hits.hits[0]._source.subclassification ;
+        document.body.appendChild(newElement);
+          
+    } 
+ 
+ ajaxhttp.send(null);       
+        
+        
+</script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+{  
+   "took":2,
+   "timed_out":false,
+   "_shards":{  
+      "total":1,
+      "successful":1,
+      "failed":0
+   },
+   "hits":{
+      "total":50875,
+      "max_score":4.4780493,
+      "hits":[
+         {
+            "_index":"jobs",
+            "_type":"job",
+            "_id":"35525486",
+            "_score":4.4780493,
+            "_source":{
+               "title":"Senior Project Engineer - commercial construction - a step towards a PM role",
+               "jobtitle":"Senior Project Engineer",
+               "jobid":33489652,
+               "listingid":35525486,
+               "reviewid":0,
+               "companyprofilestructureddataid":11742,
+               "companyname":"Marble Recruitment",
+               "marketsegmentid":1,
+               "premiumflag":false,
+               "salarymaxamount":149999,
+               "salaryminamount":110000,
+               "salarymidpoint":130000,
+               "salaryinfo":"2||110000|149999|en-AU|Up to $160k package ",
+               "salarytext":"Up to $160k package ",
+               "salarytypeid":2,
+               "advertiser":"Marble - Expert Recruitment",
+               "advertiserid":21626834,
+               "ignoread":false,
+               "classificationid":1206,
+               "classification":"Construction",
+               "subclassificationid":6119,
+               "subclassification":"Project Management",
+               "shortdescription":"Exceptionally successful builder, with an astounding portfolio of high-profile projects. Work alongside internationally acclaimed architects.",
+               "jobaddetails":"<HTML><p>On offer is an exceptionally rare opportunity for an experienced Project Coordinator/Project Engineer to <strong>move into a PM role within 12-18 months</strong>.</p><p>As one of the most successful companies in the country, this Tier One builder has a truly national presence.</p><p>They pride themselves on the successful delivery of a high quality builds on time and under budget, and seek some with 3-6 years of experience under their belt to come on board and make the step up to <strong>what is effectively a Junior PM role</strong>. </p><p>You must possess advanced business acumen to come on board and successfully manage and deliver residential, commercial and institutional projects.  </p><p> </p><p>Reporting to a Project Manager on a <strong>$120m commercial project</strong>, your responsibilities will include:  </p><ul><li>Manage design briefs, budgets, scopes and programs to ensure projects are completed to the client's requirements, on time and to budget  </li><li>Prepare regular reports assessing project performance to time and cost deliverables  </li><li>Understand project contractual obligation and maintain a detailed knowledge of all subcontractor scopes of work and the specific performance required  </li><li>Assess and approve subcontractor progress payments  </li><li>Assessing variations with respect to quality, scope, time and costs  </li><li>Management of project quality  </li></ul><p> </p><p>If you fit the following selection criteria then please apply now:  </p><ul><li>Degree qualifications in Construction</li><li>Driven and ambitious individual who would like to <strong>step into a PM role within 12 months</strong></li><li>3-7 years of experience with a top tier or reputable mid tier builder in the Melbourne CBD</li><li>Technical understanding of the building process and project sequencing  </li><li>Outstanding people skills with the ability to build and maintain relationships  </li><li>Ambitious and highly motivated individual  </li></ul><p> </p><p>This is a great opportunity for a Project Engineer/Project Coordinator to be a part of an innovative company which time and time again continues to secure some of the most interesting jobs around. You will be working with a fantastic Tier One team and will see projects valued at $80m+ right through to completion.</p><p> </p><p>Make contact today!</p><p> </p><p> </p><p> </p><p> </p><p>Scott Gowling<br /><br />sgowling@marble.com.au<br /><br />03 8256 2200</p></HTML>  Up to $160k package ",
+               "shortlocation":"Melbourne~CBD & Inner Suburbs",
+               "docdatetime":"2017-05-18T07:23:42Z",
+               "expirydate":"2017-06-17T07:23:42Z",
+               "automaticinclusion":false,
+               "automaticinclusionid":0,
+               "worktype":"Full Time",
+               "worktypeid":242,
+               "suburbid":18578,
+               "suburb":"melbourne",
+               "displaysuburb":"Melbourne",
+               "suburblist":"Melbourne",
+               "area":"CBD & Inner Suburbs",
+               "areaid":5069,
+               "nationid":3000,
+               "nation":"Australia",
+               "locationid":1002,
+               "location":"Melbourne",
+               "stateid":3106,
+               "state":"Victoria",
+               "metaclassifier":"Full Time Project Management Construction CBD & Inner Suburbs Melbourne Victoria Australia project management project manager construction",
+               "metaclassifieronly":"Full Time Project Management Construction CBD & Inner Suburbs Melbourne Victoria Australia",
+               "isenhancedad":false,
+               "enhancedadbullets":[
+
+               ],
+               "geolocation":"-37.8136100769043,144.96305847168",
+               "additionalworkarrangements":[
+
+               ],
+               "extractedroletitles":[
+                  "project engineer",
+                  "engineer"
+               ]
+            }
+         }
+      ]
+   }
+}

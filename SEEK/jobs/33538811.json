@@ -1,0 +1,81 @@
+{  
+   "took":2,
+   "timed_out":false,
+   "_shards":{  
+      "total":1,
+      "successful":1,
+      "failed":0
+   },
+   "hits":{
+      "total":50875,
+      "max_score":4.4780493,
+      "hits":[
+        {
+            "_index":"jobs",
+            "_type":"job",
+            "_id":"35576476",
+            "_score":4.4780493,
+            "_source":{
+               "title":"Estimator | Commercial Joinery & Shopfitting ",
+               "jobtitle":"Estimator | Commercial Joinery & Shopfitting ",
+               "jobid":33538811,
+               "listingid":35576476,
+               "reviewid":0,
+               "companyprofilestructureddataid":29,
+               "companyname":"Hays Recruitment",
+               "marketsegmentid":1,
+               "premiumflag":false,
+               "salarymaxamount":149999,
+               "salaryminamount":120000,
+               "salarymidpoint":135000,
+               "salaryinfo":"2||120000|149999|en-AU|",
+               "salarytext":"",
+               "salarytypeid":2,
+               "advertiser":"Hays Construction",
+               "advertiserid":29318721,
+               "ignoread":false,
+               "classificationid":1206,
+               "classification":"Construction",
+               "subclassificationid":1387,
+               "subclassification":"Estimating",
+               "shortdescription":"Leading shopfitter are after a senior Estimator to join their award winning team",
+               "jobaddetails":"<HTML><p>Leading shopfitter are after a senior Estimator to join their award winning team<br> </p><div>Brand new estimating role with leading shopfitting company<br> <br> Hays Trades &amp; Labour are your industry specialists when it comes it recruitment in the Shopfitting and Joinery market. We deal with some of the largest and most high end Retail and Commercial fit out companies around Victoria.<br> <br> My client are one of the leading shop fitting companies in Melbourne and are rapidly expanding their successful team. Due to an increase in projects they are looking for an experienced Estimator to join.<br> <br> For your experience you will be rewarded with a pipeline of high end projects working alongside global brands. You must poses strong written and communication skill as well as being able to work both autonomously and as part of a team.<br> <br> You will have a proven ability to build relationships with clients and sub contractors as well as a track record of winning tenders.<br> <br> This is a one of a kind role. For your hard work you will be rewarded with an excellent salary package as well as a supportive team.<br> <br> <br> For more information please email your up to date resume to lily.mickleburgh@hays.com.au, or call Lily on 03 8616 8491</div><p> </p><div>Reference Number: 1630493</div></HTML> <HTML>Paying upto $140k package!  Brand new projects to be worked on!  Exciting portfolio of clients and career progressions </HTML> ",
+               "shortlocation":"Melbourne~Bayside & South Eastern Suburbs",
+               "docdatetime":"2017-05-25T04:03:47Z",
+               "expirydate":"2017-06-24T04:03:49Z",
+               "automaticinclusion":false,
+               "automaticinclusionid":0,
+               "worktype":"Full Time",
+               "worktypeid":242,
+               "suburb":"none",
+               "displaysuburb":"none",
+               "suburblist":"none",
+               "area":"Bayside & South Eastern Suburbs",
+               "areaid":5070,
+               "nationid":3000,
+               "nation":"Australia",
+               "locationid":1002,
+               "location":"Melbourne",
+               "stateid":3106,
+               "state":"Victoria",
+               "metaclassifier":"Full Time Estimating Construction Bayside & South Eastern Suburbs Melbourne Victoria Australia estimating estimator construction",
+               "metaclassifieronly":"Full Time Estimating Construction Bayside & South Eastern Suburbs Melbourne Victoria Australia",
+               "isenhancedad":true,
+               "enhancedadbullets":[
+                  "Paying upto $140k package! ",
+                  "Brand new projects to be worked on! ",
+                  "Exciting portfolio of clients and career progressions "
+               ],
+               "enhancedadlogoid":405768,
+               "enhancedadlogofile":"405768.gif",
+               "additionalworkarrangements":[
+
+               ],
+               "extractedroletitles":[
+                  "estimator"
+               ]
+            }
+         }
+      ]
+   }
+}

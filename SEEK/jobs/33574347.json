@@ -1,0 +1,78 @@
+{  
+   "took":2,
+   "timed_out":false,
+   "_shards":{  
+      "total":1,
+      "successful":1,
+      "failed":0
+   },
+   "hits":{
+      "total":50875,
+      "max_score":4.4780493,
+      "hits":[
+        {
+            "_index":"jobs",
+            "_type":"job",
+            "_id":"35613292",
+            "_score":4.4780493,
+            "_source":{
+               "title":"Estimator (Home Builder)",
+               "jobtitle":"Estimator (Home Builder)",
+               "jobid":33574347,
+               "listingid":35613292,
+               "reviewid":0,
+               "companyprofilestructureddataid":212528,
+               "companyname":"Anteo Recruitment Group",
+               "marketsegmentid":1,
+               "premiumflag":false,
+               "salarymaxamount":79999,
+               "salaryminamount":65000,
+               "salarymidpoint":72500,
+               "salaryinfo":"2||65000|79999|en-AU|$70k",
+               "salarytext":"$70k",
+               "salarytypeid":2,
+               "advertiser":"Anteo Recruitment Group Pty Ltd",
+               "advertiserid":24821584,
+               "ignoread":false,
+               "classificationid":1206,
+               "classification":"Construction",
+               "subclassificationid":1387,
+               "subclassification":"Estimating",
+               "shortdescription":"Be involved with an industry leading organisation and work on quality homes. Excellent work culture and progression opportunities. Earn $70k.",
+               "jobaddetails":"<HTML><strong>Estimator (Home Builder) &nbsp;&nbsp;&nbsp;&nbsp;<br> </strong><strong><br> <br> The Company:<br> </strong><br> <br> Our client is a leading, multi-award winning new home builder. An iconic Australian builder renowned for high-quality products and exceptional customer service, their ongoing growth in the industry is a testament to their commitment to carrying out all the little things with excellence. Guided by a strong ethos of service and building distinction, our client continues to deliver remarkable results that have seen them gain strong traction within the industry since their debut just over a decade ago. If you want to see your career progress with an industry leader, join our client's team as their newest Estimator.<br> &nbsp;<br> <strong><br> The Role:</strong><br> <br> <ul> <li>Work within the key indicators of the Estimating team (accuracy &amp; efficiency)</li> <li>Quoting and preparing tender documents </li> <li>Assist in the procurement and sourcing of resources</li> <li>Pre-tender forecasting and cost planning</li> </ul> &nbsp;<br> <strong>The Benefits:</strong>&nbsp; &nbsp;<br> &nbsp;&nbsp;<br> <ul> <li>$70k &nbsp;</li> <li>Excellent career progression opportunities</li> <li>Vibrant, collaborative company culture</li> <li>An emphasis on work-life balance</li> <li>Work on challenging projects for an award-winning builder</li> </ul> &nbsp;<br> <strong>Skills &amp; Experience:</strong><br> <br> <ul> <li>Previous estimating experience</li> <li>Knowledge of Building Plans and specifications</li> <li>High level of computer skills and numeracy</li> <li>Customer focus mindset</li> <li>Excellent verbal and written communication</li> </ul> &nbsp;<br> <strong>To Apply:<br> </strong><br> <br> Submit your application by clicking on the link below.<br> </HTML>  $70k",
+               "shortlocation":"Melbourne~Bayside & South Eastern Suburbs",
+               "docdatetime":"2017-05-30T09:00:48Z",
+               "expirydate":"2017-06-29T09:00:48Z",
+               "automaticinclusion":false,
+               "automaticinclusionid":0,
+               "worktype":"Full Time",
+               "worktypeid":242,
+               "suburb":"none",
+               "displaysuburb":"none",
+               "suburblist":"none",
+               "area":"Bayside & South Eastern Suburbs",
+               "areaid":5070,
+               "nationid":3000,
+               "nation":"Australia",
+               "locationid":1002,
+               "location":"Melbourne",
+               "stateid":3106,
+               "state":"Victoria",
+               "metaclassifier":"Full Time Estimating Construction Bayside & South Eastern Suburbs Melbourne Victoria Australia estimating estimator construction",
+               "metaclassifieronly":"Full Time Estimating Construction Bayside & South Eastern Suburbs Melbourne Victoria Australia",
+               "isenhancedad":false,
+               "enhancedadbullets":[
+
+               ],
+               "additionalworkarrangements":[
+
+               ],
+               "extractedroletitles":[
+                  "estimator",
+                  "builder"
+               ]
+            }
+         }
+      ]
+   }
+}

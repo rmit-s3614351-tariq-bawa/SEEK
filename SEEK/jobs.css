@@ -1,0 +1,134 @@
+body {
+    background-image: url("wallpaper.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    }
+h1 {
+    font-size: 35px;
+    color: 	#4169E1;
+    padding-top:2%;
+    padding-left:1%;
+    text-align: center;
+    }
+h2 {
+    font-size: 14px;
+    color:black;
+    padding-top:2%;
+    padding-left:5%;
+    }
+p {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.class {
+    font-size: 1.1rem;
+    color: black;
+    text-align: center;
+    padding-left:1%;
+}
+.side1 {
+    font-size:14px;
+    color: black;
+    padding-left:5%;
+}
+.jobid {
+    float: right;
+    padding-right: 2%;
+    margin-top: 2%;
+}
+.job {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 700px;
+    height: 1500px;
+    background-color: white;
+    margin-left: 27.5%;
+    border: 30px solid white;
+    box-shadow: inset 0px 0px 0px 2px #4169E1;
+    box-sizing: border-box;
+    }
+.ad1 {
+    float: right;
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    margin-right: 16%;
+}
+.ad2 {
+    float: right;
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    margin-top: 4.5%;
+    margin-right: -18.6%;
+    
+}
+.ad3 {
+    float: right;
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    margin-right: 16%;
+    margin-top: -79.5%;
+    font-size: 16px;
+}
+.button {
+    background-color: #4169E1; /* Blue */
+    border: none;
+    color: white;
+    padding: 14px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button-1 {
+    background-color: #999999; /* Gray */
+    border: none;
+    color: white;
+    padding: 14px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 5%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4169E1;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.button1:hover {
+    background-color: #4169E1;
+    color: white;
+}
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #999999;
+}
+
+.button4:hover {
+	background-color: #999999;
+    }
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #999999;
+}
+
+.button5:hover {
+    background-color: #999999;
+    color: black;
+}

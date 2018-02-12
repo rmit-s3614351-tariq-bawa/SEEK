@@ -1,0 +1,81 @@
+{  
+   "took":2,
+   "timed_out":false,
+   "_shards":{  
+      "total":1,
+      "successful":1,
+      "failed":0
+   },
+   "hits":{
+      "total":50875,
+      "max_score":4.4780493,
+      "hits":[
+          {
+            "_index":"jobs",
+            "_type":"job",
+            "_id":"35510166",
+            "_score":4.4780493,
+            "_source":{
+               "title":"Excavator Operator",
+               "jobtitle":"Excavator Operator",
+               "jobid":33474948,
+               "listingid":35510166,
+               "reviewid":0,
+               "marketsegmentid":1,
+               "premiumflag":true,
+               "plstartdate":"2017-05-29T14:00:00Z",
+               "plenddate":"2017-06-05T13:59:59Z",
+               "salarymaxamount":79979,
+               "salaryminamount":60000,
+               "salarymidpoint":69990,
+               "salaryinfo":"5||30.0|39.99|en-AU|",
+               "salarytext":"",
+               "salarytypeid":5,
+               "advertiser":"Savy Civil Pty Ltd",
+               "advertiserid":33508984,
+               "ignoread":false,
+               "classificationid":1206,
+               "classification":"Construction",
+               "subclassificationid":6118,
+               "subclassification":"Plant & Machinery Operators",
+               "shortdescription":"Excavator Operator Water & Sewer",
+               "jobaddetails":"<HTML><p>Savy Civil is a family owned successful civil construction business. We are growing and need Experienced Operators to join our expanding workforce in the Western &amp; Northern suburbs.</p>  <p>Must be experienced on Excavators &amp; backhoes.</p>  <p>To apply, candidates must:<br/>- Hold a construction induction card<br/>- Have proven sewer &amp; water construction exposure/experience<br/>- Hold relevant Operator Tickets<br/>- Be able to provide employment references<br/>- Be keen to work and learn<br/>- Deliver high quality work<br/><br/>In return our employees can expect full time ongoing secure employment, our investment in developing your leadership &amp; training, a work/life balance by being located close to your home &amp; excellent hourly rates dependent upon experience &amp; capability.</p></HTML> <HTML>  </HTML> ",
+               "shortlocation":"Melbourne~Northern Suburbs",
+               "docdatetime":"2017-05-17T01:48:03Z",
+               "expirydate":"2017-06-16T01:48:03Z",
+               "automaticinclusion":false,
+               "automaticinclusionid":0,
+               "worktype":"Full Time",
+               "worktypeid":242,
+               "suburb":"none",
+               "displaysuburb":"none",
+               "suburblist":"none",
+               "area":"Northern Suburbs",
+               "areaid":5072,
+               "nationid":3000,
+               "nation":"Australia",
+               "locationid":1002,
+               "location":"Melbourne",
+               "stateid":3106,
+               "state":"Victoria",
+               "metaclassifier":"Full Time Plant & Machinery Operators Construction Northern Suburbs Melbourne Victoria Australia machinery operator construction",
+               "metaclassifieronly":"Full Time Plant & Machinery Operators Construction Northern Suburbs Melbourne Victoria Australia",
+               "isenhancedad":true,
+               "enhancedadbullets":[
+                  "",
+                  "",
+                  ""
+               ],
+               "additionalworkarrangements":[
+
+               ],
+               "extractedroletitles":[
+                  "excavator operator",
+                  "excavator",
+                  "operator"
+               ]
+            }
+         }
+      ]
+   }
+}

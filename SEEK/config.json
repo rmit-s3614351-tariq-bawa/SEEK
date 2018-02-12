@@ -1,0 +1,10 @@
+{
+    "serverName": "http://43.240.96.87",
+    "port": "9200",
+    "es_index": "seekclone",
+    "requestName": "_search",
+    "keywordSearch": "search",
+    "classificationSearch": "classification",
+    "locationSearch": "location",
+    "size": "4"
+}

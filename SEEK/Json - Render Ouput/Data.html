@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jquery AJax</title>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" href="jobstyle.css" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        
+    </style>
+        
+        
+    </head>
+
+<html>
+<body>
+    
+<div class="ad1">
+        <button  class="button button1" type="button">Apply Now</button>
+        
+</div>
+<div class="ad2">
+        <button class="button-1 button4">Save Job</button>
+        <button class="button-1 button5">Send Job</button>
+        
+</div>
+    
+<script>
+    var ajaxhttp = new XMLHttpRequest();
+    var url = "example.json";
+
+    ajaxhttp.open("GET", url, true);
+    ajaxhttp.setRequestHeader("content-type", "application/json");
+    ajaxhttp.onreadystatechange = function () {
+    if(ajaxhttp.readyState == 4 && ajaxhttp.status == 200){
+        
+        var jcontent = JSON.parse(ajaxhttp.response);
+            var newElement = document.createElement('div');
+            newElement.id = jcontent.hits.hits[0]; newElement.className = "job";
+            newElement.innerHTML ='<h1  class="job-name">' + jcontent.hits.hits[0]._source.title+ '</h1>'+'<br>' + '<div class="class">'+ jcontent.hits.hits[0]._source.advertiser + '</div><br><br>'+ '<br>' + '<p>' + jcontent.hits.hits[0]._source.jobaddetails + '</p>' ;
+            document.body.appendChild(newElement);
+        
+         var newElement = document.createElement('div');
+            newElement.id = jcontent.hits.hits[0]; newElement.className = "ad3";
+            newElement.innerHTML = '<h2>' + jcontent.hits.hits[0]._source.docdatetime + '</h2>' + '<div class="side1">'+'<b>' + jcontent.hits.hits[0]._source.displaysuburb + '</b> <br> ' + jcontent.hits.hits[0]._source.state + ', ' + jcontent.hits.hits[0]._source.nation + '<b> <br><br>'+ jcontent.hits.hits[0]._source.worktype + '<br><br>' + jcontent.hits.hits[0]._source.classification +'</b>'+ '<br>' + jcontent.hits.hits[0]._source.subclassification ;
+            document.body.appendChild(newElement);
+          
+        
+        console.log(jcontent);
+        
+    }
+}
+ajaxhttp.send(null);
+        
+        
+        
+    </script>
+
+
+    
+</body>
+</html>

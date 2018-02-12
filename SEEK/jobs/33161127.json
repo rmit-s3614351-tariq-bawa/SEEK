@@ -1,0 +1,85 @@
+{  
+   "took":2,
+   "timed_out":false,
+   "_shards":{  
+      "total":1,
+      "successful":1,
+      "failed":0
+   },
+   "hits":{
+      "total":50875,
+      "max_score":4.4780493,
+      "hits":[
+         {
+            "_index":"jobs",
+            "_type":"job",
+            "_id":"35182475",
+            "_score":4.4780493,
+            "_source":{
+               "title":"Engineering Surveyor - Major Projects",
+               "jobtitle":"Engineering Surveyor - Major Projects",
+               "jobid":33161127,
+               "listingid":35182475,
+               "reviewid":0,
+               "companyprofilestructureddataid":22983,
+               "companyname":"NES Global Talent",
+               "marketsegmentid":1,
+               "premiumflag":false,
+               "salarymaxamount":119999,
+               "salaryminamount":95000,
+               "salarymidpoint":107500,
+               "salaryinfo":"2||95000|119999|en-AU|$100k + overtime",
+               "salarytext":"$100k + overtime",
+               "salarytypeid":2,
+               "advertiser":"NES Global Talent",
+               "advertiserid":23410767,
+               "ignoread":false,
+               "classificationid":1206,
+               "classification":"Construction",
+               "subclassificationid":6121,
+               "subclassification":"Surveying",
+               "shortdescription":"Take your next career step in Melbourne's booming engineering market. Call David on (03)8539 4880. Assistance offered for interstate relocation.",
+               "jobaddetails":"<HTML><p>This role represents a great opportunity for an experienced Engineering Surveyor to secure their next permanent role. Our client is a well established engineering and survey firm based in Melbourne.&nbsp; They have enjoyed continued growth&nbsp;for the past decade.&nbsp;As a result, this company has an urgent requirement for an experienced Engineering Surveyor to join their team on a full time basis to work on ongoing projects.&nbsp;</p>  <p>Reporting to a highly accomplished Survey Manager, you will be engaged on some of Victoria's most prolific road and highway construction&nbsp;projects. To be considered here, you must be degree or diploma qualified and&nbsp;considerable experience in a field based role. We are seeking a team player who is looking to grow their career. This company prides itself on being at the forefront of new technology in the industry and as being an employer of choice across Melbourne. Ideally you will have used Leica equipment and Liscad software in a practical environment.<br/><br/>In exchange for your commitment to this long term role, you will be rewarded with a market leading salary and fantastic employment conditions. To be considered here, please contact David Moon on 8539 4880 or submit your CV via the link below.<br/><br/>Work on major projects Long term career opportunity Join this growing and highly regarded survey company</HTML> $100k + overtime </p>",
+               "shortlocation":"Melbourne~CBD & Inner Suburbs",
+               "docdatetime":"2017-04-06T22:10:41Z",
+               "expirydate":"2017-06-02T05:04:04Z",
+               "automaticinclusion":false,
+               "automaticinclusionid":0,
+               "worktype":"Full Time",
+               "worktypeid":242,
+               "suburbid":18578,
+               "suburb":"melbourne",
+               "displaysuburb":"Melbourne",
+               "suburblist":"Melbourne",
+               "area":"CBD & Inner Suburbs",
+               "areaid":5069,
+               "nationid":3000,
+               "nation":"Australia",
+               "locationid":1002,
+               "location":"Melbourne",
+               "stateid":3106,
+               "state":"Victoria",
+               "metaclassifier":"Full Time Surveying Construction CBD & Inner Suburbs Melbourne Victoria Australia surveying surveyor construction",
+               "metaclassifieronly":"Full Time Surveying Construction CBD & Inner Suburbs Melbourne Victoria Australia",
+               "isenhancedad":true,
+               "enhancedadbullets":[
+                  "Work on major projects",
+                  "Long term career opportunity",
+                  "Join this growing and highly regarded survey company"
+               ],
+               "enhancedadlogoid":329334,
+               "enhancedadlogofile":"329334.JPG",
+               "geolocation":"-37.8136100769043,144.96305847168",
+               "additionalworkarrangements":[
+
+               ],
+               "extractedroletitles":[
+                  "engineering surveyor",
+                  "engineering",
+                  "surveyor"
+               ]
+            }         
+         }
+      ]
+   }
+}

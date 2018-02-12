@@ -1,0 +1,81 @@
+{  
+   "took":2,
+   "timed_out":false,
+   "_shards":{  
+      "total":1,
+      "successful":1,
+      "failed":0
+   },
+   "hits":{
+      "total":50875,
+      "max_score":4.4780493,
+      "hits":[
+         {
+            "_index":"jobs",
+            "_type":"job",
+            "_id":"35547883",
+            "_score":4.4780493,
+            "_source":{
+               "title":"Contracts Administrator - Apartment Project",
+               "jobtitle":"Contracts Administrator",
+               "jobid":33511248,
+               "listingid":35547883,
+               "reviewid":0,
+               "companyprofilestructureddataid":11742,
+               "companyname":"Marble Recruitment",
+               "marketsegmentid":1,
+               "premiumflag":false,
+               "salarymaxamount":149999,
+               "salaryminamount":100000,
+               "salarymidpoint":125000,
+               "salaryinfo":"2||100000|149999|en-AU|Career progression into PM!",
+               "salarytext":"Career progression into PM!",
+               "salarytypeid":2,
+               "advertiser":"Marble - Expert Recruitment",
+               "advertiserid":21626834,
+               "ignoread":false,
+               "classificationid":1206,
+               "classification":"Construction",
+               "subclassificationid":6113,
+               "subclassification":"Contracts Management",
+               "shortdescription":"Contracts Administrator required for apartment projects with a Tier 3 builder! Call Theo 03 8256 2200",
+               "jobaddetails":"<HTML><p>This commercial builder has become a well known name in the market for delivering contemporary, modern, unique and superior projects to their extensive client base. With a well established brand and an excellent reputation they have continued to expand their capabilities and are currently running projects up to $45m.</p><p>They are currently looking for a&nbsp;<strong>Contracts Administrator</strong>&nbsp;to join their close knit team. This opportunity will give you the chance to work on a challenging&nbsp;state of the art apartment project</p><p><strong>Your Requirements:</strong></p><ul> <li><strong>2 yrs + experience&nbsp;</strong>with a commercial builder in Melbourne</li> <li>Degree qualified; Bachelor of Construction Management</li> <li>Strong negotiation & communication skills</li> <li>Strong commercial acumen & understanding of construction techniques</li> <li>A career orientated CA who is looking to gain exposure with a successful, driven and progressive organisation</li></ul><p>The client is looking to interview immediately and could have the right person started as soon as next week. Please call Theo on 03 8256 2200 for more information</p><div> <br> <br> <p>Like the sound of this but you don't have the right skill-set? Share it with your friends who do!</p> <p>Theo Maroulakos<br>tmaroulakos@marble.com.au<br>03 8256 2200</p> <p>By submitting your application for this role you agree to have read and understood Marble's Privacy Policy found at marble.com.au/privacy.</p></div></HTML>  Career progression into PM!",
+               "shortlocation":"Melbourne~CBD & Inner Suburbs",
+               "docdatetime":"2017-05-22T05:55:13Z",
+               "expirydate":"2017-06-21T05:55:13Z",
+               "automaticinclusion":false,
+               "automaticinclusionid":0,
+               "worktype":"Full Time",
+               "worktypeid":242,
+               "suburbid":18578,
+               "suburb":"melbourne",
+               "displaysuburb":"Melbourne",
+               "suburblist":"Melbourne",
+               "area":"CBD & Inner Suburbs",
+               "areaid":5069,
+               "nationid":3000,
+               "nation":"Australia",
+               "locationid":1002,
+               "location":"Melbourne",
+               "stateid":3106,
+               "state":"Victoria",
+               "metaclassifier":"Full Time Contracts Management Construction CBD & Inner Suburbs Melbourne Victoria Australia contract administration contract administrator contract management construction",
+               "metaclassifieronly":"Full Time Contracts Management Construction CBD & Inner Suburbs Melbourne Victoria Australia",
+               "isenhancedad":false,
+               "enhancedadbullets":[
+
+               ],
+               "geolocation":"-37.8136100769043,144.96305847168",
+               "additionalworkarrangements":[
+
+               ],
+               "extractedroletitles":[
+                  "contracts administrator",
+                  "administrator",
+                  "contract administrator"
+               ]
+            }
+         }
+      ]
+   }
+}

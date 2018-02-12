@@ -1,0 +1,63 @@
+<DOCTYPE html>
+<head>
+<title>SEEK</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="config.js"></script>
+<script type="text/javascript" src="scripit.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<html>
+<body>
+    
+   <h1>SEEK</h1>
+   
+   <div class="form">
+    <form action="results.html" method="get" >
+          <label>Search <br>
+          <input id="search" type="text" placeholder="Enter key words" name="keywords">
+          </label>
+          
+          
+              <select name="classification" required>
+                <option value="" disabled selected hidden>Any Classification</option>
+			    <option value="Accouting">Accouting</option>
+			    <option value="Administration & Office Support">Administration & Office Support</option>
+			    <option value="Advertising, Arts & Media">Advertising, Arts & Media</option>
+			    <option value="Banking & Financial Services">Banking & Financial Services</option>
+			    <option value="Call Centre & Customer Service">Call Centre & Customer Service</option>
+			    <option value="CEO & General Manager">CEO & General Manager</option>
+			    <option value="Community Services & Development">Community Services & Development</option>
+			    <option value="Construction">Construction</option>
+		      </select>
+          
+          
+          <input name="location" id = "location" type="text" placeholder="Enter suburb, city or region">
+          
+            <input class="submit-btn" type="submit" value="Submit">
+    </form>
+   </div>
+   
+   <script>
+   console.log(window.config);
+    //     let config = {};
+    //     $.ajax({
+    //       dataType: "json",
+    //       url: 'config.json',
+    //       success: (res) => {config = res},
+    //     });
+        
+    //     $('.submit-btn').on('click', function(e){
+    //     	keywords = $('#search').val();
+    //     	window.location.replace(`Json%20-%20Render%20Ouput/index.html?${config.keywordSearch}=${keywords}`);
+    //   });
+   </script>
+   
+   <div class="output">
+       <div id="output"></div>
+   </div>
+   
+</body>
+</html>
